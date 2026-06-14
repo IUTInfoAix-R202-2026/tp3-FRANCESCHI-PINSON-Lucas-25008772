@@ -27,4 +27,19 @@
 <BorderPane xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1"
             prefWidth="420.0" prefHeight="240.0">
 
+            <padding></padding>
+
+            <top>
+              <Label text="Bienvenue dans le monde FXML !"/>
+            </top>
+
+            <center>
+              <Label text="Cette interface est décrite dans un fichier XML. Aucun code java ne l'a construite" wrapText="true"/>
+            </center>
+
+            <bottom>
+              <Button text="D'accord, c'est magique"/>            
+            </bottom>
+            
+
 </BorderPane>
